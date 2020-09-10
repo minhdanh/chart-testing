@@ -28,7 +28,7 @@ dependency:
   repository: str()
   condition: str(required=False)
   tags: list(str(), required=False)
-  enabled: bool()
+  enabled: bool(required=False)
   import-values: any(list(str()), list(include('import-value')), required=False)
   alias: str(required=False)
 ---
